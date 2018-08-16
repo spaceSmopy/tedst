@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
+    <meta charset="utf-8">
+
+    <title> Music </title>
+
+</head>
+
+<body>
+    <div class="left-back">
+        <div class="left-menu">
+            <ul class="forUl">
+                <a href="#">
+                    <li class="leftLi"><i class="fa fa-user" style="margin-right: 20px;"></i> Admin</li>
+                </a>
+                <a href="#">
+                    <li class="leftLi"><i class="fa fa-star" style="margin-right: 20px;"></i> Create Artist</li>
+                </a>
+                <a href="#">
+                    <li class="leftLi"><i class="fa fa-list-ul" style="margin-right: 20px;"></i> View artists</li>
+                </a>
+                <a href="#">
+                    <li class="leftLi"><i class="fa fa-bars" style="margin-right: 20px;"></i> View users </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container header">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+                <p class="logoText">TSV</p>
+            </div>
+            <div class="col-md-3 col-md-offset-4" style="margin-top:20px;">
+                <a class="AccountGmail"><i class="fa fa-user" style="color: #d18d16;margin-right: 20px;"></i>aaaaaaa@gmail.com <i class="fa fa-chevron-down" style="margin-left: 10px;" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="container underHeader">
+            <div class="row">
+                <div class="col-md-4 ArtList">
+                    <ul class="forUl2">
+                        <li>
+                            <p>Artist</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="container main-contFull">
+            <div class="row main-cont">
+                <!--//////////////////// !FIRST COLUMN! \\\\\\\\\\\\\\\\\-->
+                <div class="col-md-6 align-left">
+                    <!--///////////////////////// First name -->
+                    <div class="row margin-top first-margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_first_name" class="required">First name</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_first_name" name="artist_form[first_name]" required="required" autofocus="autofocus"></div>
+                    </div>
+                    <!-- /////////////////////// Last name -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_last_name" class="required">Last name</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_last_name" name="artist_form[last_name]" required="required"></div>
+                    </div>
+                    <!-- ////////////////////// IMAGES -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_image1" class="required">Image1</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="file" id="artist_form_image1" name="artist_form[image1]" required="required"></div>
+
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_image2" class="required">Image2</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="file" id="artist_form_image2" name="artist_form[image2]" required="required"></div>
+
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_image3" class="required">Image3</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="file" id="artist_form_image3" name="artist_form[image3]" required="required"></div>
+
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_image4" class="required">Image4</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="file" id="artist_form_image4" name="artist_form[image4]" required="required"></div>
+
+                    </div>
+                    <!-- ///////////////////////// GENDER -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label class="required">Gender</label></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="artist_form_gender">
+                                <div class="col-md-6">
+                                    <input type="radio" id="artist_form_gender_0" name="artist_form[gender]" required="required" value="1"><label for="artist_form_gender_0" class="required">male</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="radio" id="artist_form_gender_1" name="artist_form[gender]" required="required" value="0"><label for="artist_form_gender_1" class="required">female</label>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--//////////////////// Location country/city  -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_location_country" class="required">Location country</label></div>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="artist_form_location_country" name="artist_form[location_country]" required="required">
+                        </div>
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_location_city" class="required">Location city</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_location_city" name="artist_form[location_city]" required="required"></div><input type="hidden" id="artist_form__token" name="artist_form[_token]" value="npYWryKsPwTzccUYRBAUyj2XbmIgIHDWL4vuTeiCD7s"></form>
+
+                    </div>
+                    <!--////////////////////// Email/Phone -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_email">Email</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="email" id="artist_form_email" name="artist_form[email]"></div>
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_phone">Phone</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_phone" name="artist_form[phone]"></div>
+                    </div>
+                    <!--///////////////////// Address -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_address">Address</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_address" name="artist_form[address]"></div>
+
+                    </div>
+                    <!--/////////////////////// Agency -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_agency">Agency</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="text" id="artist_form_agency" name="artist_form[agency]"></div>
+
+                    </div>
+                    <!--/////////////////////// Comment -->
+                    <div class="row margin-top margin-bottom">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_internal_comment">Internal comment</label></div>
+                        </div>
+                        <div class="col-md-3"><textarea id="artist_form_internal_comment" name="artist_form[internal_comment]"></textarea></div>
+
+                    </div>
+                </div>
+                <!--//////////////////// !SECOND COLUMN! \\\\\\\\\\\\\\\\\-->
+                <div class="col-md-6 align-left">
+                    <!--///////////////////////// Language -->
+                    <div class="row margin-top first-margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <label for="lang"> Language </label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <select class="form-control" id="lang">
+                                    <option>Russian</option>
+                                    <option>English</option>
+                                    <option>Spain</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!--///////////////////// Accent -->
+                    <div class="row ">
+                        <div class="col-md-3 col-md-offset-1">
+                            <label for="acce"> Accent  </label>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <select class="form-control" id="acce">
+                                    <option>Russian</option>
+                                    <option>English</option>
+                                    <option>Spain</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!--////////////////// Clean Voice -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label class="required">Clean voice</label></div>
+                        </div>
+                        <div class="col-md-8">
+                            <div id="artist_form_clean_voice"></div>
+                            <div class="col-md-4"><input type="radio" id="artist_form_clean_voice_0" name="artist_form[clean_voice]" required="required" value="0"><label for="artist_form_clean_voice_0" class="required">clean</label></div>
+                            <div class="col-md-4"><input type="radio" id="artist_form_clean_voice_1" name="artist_form[clean_voice]" required="required" value="1"><label for="artist_form_clean_voice_1" class="required">mercant</label></div>
+                            <div class="col-md-4"><input type="radio" id="artist_form_clean_voice_2" name="artist_form[clean_voice]" required="required" value="2"><label for="artist_form_clean_voice_2" class="required">both</label></div>
+                        </div>
+
+                    </div>
+                    <!--////////////////// Synchron -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label class="required">Synchron</label></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="artist_form_synchron">
+                                <div class="col-md-6"><input type="radio" id="artist_form_synchron_0" name="artist_form[synchron]" required="required" value="0"><label for="artist_form_synchron_0" class="required">not</label></div>
+                                <div class="col-md-6"><input type="radio" id="artist_form_synchron_1" name="artist_form[synchron]" required="required" value="1"><label for="artist_form_synchron_1" class="required">yes</label></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--////////////////// Voice effects -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label class="required">Voice effects</label></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="artist_form_voice_effects"></div>
+                            <div class="col-md-6"><input type="radio" id="artist_form_voice_effects_0" name="artist_form[voice_effects]" required="required" value="0"><label for="artist_form_voice_effects_0" class="required">not</label></div>
+                            <div class="col-md-6"><input type="radio" id="artist_form_voice_effects_1" name="artist_form[voice_effects]" required="required" value="1"><label for="artist_form_voice_effects_1" class="required">yes</label></div>
+                        </div>
+
+                    </div>
+                    <!--////////////////// Other  -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label>Other</label>
+                                <div id="artist_form_other"><input type="checkbox" id="artist_form_other_0" name="artist_form[other][]" value="bla"><label for="artist_form_other_0">bla</label><input type="checkbox" id="artist_form_other_1" name="artist_form[other][]" value="bla-bla">
+                                    <label for="artist_form_other_1">bla-bla</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--////////////////////// Age -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_age_min" class="required">Age min</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="number" id="artist_form_age_min" name="artist_form[age_min]" required="required"></div>
+
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_age_max" class="required">Age max</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="number" id="artist_form_age_max" name="artist_form[age_max]" required="required"></div>
+
+                    </div>
+                    <!--///////////////////// Timbre -->
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_timbre_min" class="required">Timbre min</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="number" id="artist_form_timbre_min" name="artist_form[timbre_min]" required="required"></div>
+
+                    </div>
+                    <div class="row margin-top">
+                        <div class="col-md-3 col-md-offset-1">
+                            <div><label for="artist_form_timbre_max" class="required">Timbre max</label></div>
+                        </div>
+                        <div class="col-md-3"><input type="number" id="artist_form_timbre_max" name="artist_form[timbre_max]" required="required"></div>
+
+                    </div>
+                    <!--///////////////// Button -->
+                    <div class="row margin-top-lg">
+                        <div class="col-md-5">
+                            <div><button type="submit" id="artist_form_save" name="artist_form[save]" class="btn_smbt">Submit</button></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
